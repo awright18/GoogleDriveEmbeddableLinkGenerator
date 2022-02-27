@@ -1,0 +1,43 @@
+body{
+    font-size:18px;
+    line-height: 21px;  
+    /* text-align: center;   */
+    display:grid;
+    justify-content: center;
+
+}
+.outer-container{
+    min-height: 500px;
+    /* width:50%; */
+    padding:20px;
+    border: 1px solid lightgray;
+}
+
+input{
+
+    width:70%;
+}
+
+.container{    
+    text-align: center;  
+    display:grid;
+    justify-content: center;
+    gap:10px;   
+}
+
+.message-container{
+    grid-row:4;
+}
+
+.newUrl-conatiner{
+    grid-row:5;
+}
+
+.message {    
+    color:green;    
+}
+
+.image{
+    grid-row:6;
+  
+}
