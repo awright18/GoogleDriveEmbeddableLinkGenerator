@@ -5,7 +5,9 @@ function getEmbedableUrl(){
 
     let embeddableUrl = document.querySelector('.embeddableUrl');
 
-    let driveUrl = document.querySelector('#driveUrl').value;
+    let driveUrlElement = document.querySelector('#driveUrl');
+
+    let driveUrl = driveUrlElement.value;
     
     console.log(driveUrl);
     
@@ -38,6 +40,8 @@ function getEmbedableUrl(){
     embeddableUrl.innerText = driveUrl;
     
     message.innerText ="Link Copied To Clipboard";
+
+    driveUrlElement.value = "";
     
   }
 
